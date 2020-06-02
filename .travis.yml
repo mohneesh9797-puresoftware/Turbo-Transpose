@@ -1,9 +1,5 @@
 language: c
 
-compiler: 
-  - gcc
-  - clang
-
 branches:
   only:
     - master 
@@ -21,6 +17,7 @@ matrix:
     - name: Linux amd64
       os: linux
       arch: amd64
+      compiler: gcc
 #    - name: Power ppc64le
 #      os: linux-ppc64le
 #      compiler: gcc     
